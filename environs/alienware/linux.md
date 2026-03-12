@@ -2,19 +2,13 @@
 
 Set up a minimal environment on Ubuntu. It also works on Debian, elementary OS, and similar distros.
 
-## Terminal
+## Terminal & Shells
 
-Ubuntu’s default terminal is [GNOME Terminal][gnome-terminal]—but [Alacritty](https://alacritty.org) also works.
+Ubuntu’s default terminal is [GNOME Terminal][gnome-terminal], but [Alacritty](https://alacritty.org) works too.
 
-Alacritty can be installed via [Snap][snapcraft].
+> Alacritty can be installed via [Snap](https://snapcraft.io/alacritty).
 
-```bash
-sudo snap install alacritty --classic
-```
-
-Shells recommended for productivity:
-
-**Oh My Zsh** - [ohmyz.sh](https://ohmyz.sh)
+### Oh My Zsh
 
 ```bash
 sudo apt install zsh
@@ -25,7 +19,7 @@ curl -fsSL https://install.ohmyz.sh | sh
 chsh -s $(which zsh)
 ```
 
-**Starship** - [starship.rs](https://starship.rs)
+### Starship
 
 ```bash
 curl -sS https://starship.rs/install.sh | sh
@@ -37,7 +31,7 @@ Add the following to the end of ~/.zshrc:
 eval "$(starship init zsh)"
 ```
 
-**fish** - [fishshell.com](https://fishshell.com)
+### fish
 
 ```bash
 sudo add-apt-repository ppa:fish-shell/release-4
@@ -48,26 +42,27 @@ sudo apt update
 sudo apt install fish
 ```
 
-## Browser
+## Browser & Editor
 
-- [**Google Chrome**](https://www.google.com/chrome/) — the most popular browser.
-- [**Chromium**](https://www.chromium.org/Home/) — the open-source alternative to Google Chrome.
+### Google Chrome
 
-Install [Chromium](https://snapcraft.io/chromium):
+### Chromium
 
-```bash
-sudo snap install chromium
-```
+<details>
+  <summary>Install via [Snap](https://snapcraft.io/chromium).</summary>
+  ```bash
+  sudo snap install chromium
+  ```
+</details>
 
-## Editor
+### VS Code
 
-- [**VS Code**](https://code.visualstudio.com)
-
-Install [Code](https://snapcraft.io/code):
-
-```bash
-sudo snap install code --classic
-```
+<details>
+  <summary>Install via [Snap](https://snapcraft.io/code).</summary>
+  ```bash
+  sudo snap install code --classic
+  ```
+</details>
 
 ## Programming Languages
 
