@@ -51,9 +51,7 @@ sudo apt install fish
 <details>
   <summary>
 
-    Install via [Snap](https://snapcraft.io/chromium).
-    
-  </summary>
+  Install via [Snap](https://snapcraft.io/chromium).</summary>
 
   ```bash
   sudo snap install chromium
@@ -63,7 +61,9 @@ sudo apt install fish
 ### VS Code
 
 <details>
-  <summary>Install via [Snap](https://snapcraft.io/code).</summary>
+  <summary>
+  
+  Install via [Snap](https://snapcraft.io/code).</summary>
 
   ```bash
   sudo snap install code --classic
