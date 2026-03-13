@@ -6,7 +6,7 @@ Set up a minimal environment on Ubuntu. It also works on Debian, elementary OS, 
 
 Ubuntu’s default terminal is [GNOME Terminal][gnome-terminal], but [Alacritty](https://alacritty.org) works too.
 
-Alacritty can be installed via [Snap][install-alacritty]. Run:
+Alacritty can be installed via [Snap][install-alacritty]. Run the following command:
 
 ```bash
 sudo snap install alacritty --classic
@@ -61,9 +61,8 @@ sudo apt install fish
 
 ### Google Chrome
 
-Download the `.deb` file from the [download](https://www.google.com/chrome/) page.
-
-Run the following command to install it.
+1. Download the `.deb` file from the [download](https://www.google.com/chrome/) page.
+2. Run the following command to install it.
 
 ```bash
 sudo apt install ./<download>.deb
@@ -75,15 +74,7 @@ sudo apt install ./<download>.deb
 
 ### VS Code
 
-```bash
-sudo snap install chromium
-```
-
-Install [](https://code.visualstudio.com) via [Snap](https://snapcraft.io/code).
-
-```bash
-sudo snap install code --classic
-```
+[VS Code](https://code.visualstudio.com) can be installed via [Snap](https://snapcraft.io/code).
 
 ## Programming Languages
 
