@@ -14,16 +14,16 @@ sudo snap install alacritty --classic
 
 ### Installing Shells
 
-Zsh (enhanced with [Oh My Zsh](https://ohmyz.sh)) is an excellent alternative to Bash.
+Zsh enhanced with [Oh My Zsh](https://ohmyz.sh) is an excellent alternative to Bash.
 
-Install Zsh using `apt` and set it as the default shell.
+Install Zsh and set it as the default shell.
 
 ```bash
 sudo apt install zsh
 ```
 
 ```bash
-chsh -s $(which zsh)
+chsh -s /bin/zsh
 ```
 
 Install Oh My Zsh in one line of code:
@@ -76,6 +76,16 @@ sudo apt install ./<download>.deb
 
 [VS Code](https://code.visualstudio.com) can be installed via [Snap](https://snapcraft.io/code).
 
+### Zed
+
+[Zed](https://zed.dev) is an AI code editor.
+
+Install Zed in one line of code:
+
+```bash
+curl -f https://zed.dev/install.sh | sh
+```
+
 ## Snap Store Apps
 
 ### My Favorite Apps
@@ -96,7 +106,7 @@ sudo apt install ./<download>.deb
 
 ## Utilities
 
-### Gparted
+### GParted
 
 Install [GParted](https://gparted.org) using apt:
 
@@ -115,6 +125,10 @@ sudo apt install ffmpeg
 ### HTTPie
 
 See its [installation](https://httpie.io/docs/cli/installation).
+
+### mpv
+
+See its [installation](https://mpv.io/installation).
 
 [gnome-terminal]: https://github.com/GNOME/gnome-terminal
 [install-alacritty]: https://snapcraft.io/alacritty
