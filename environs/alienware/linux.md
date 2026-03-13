@@ -6,7 +6,7 @@ Set up a minimal environment on Ubuntu. It also works on Debian, elementary OS, 
 
 Ubuntu’s default terminal is [GNOME Terminal][gnome-terminal], but [Alacritty](https://alacritty.org) works too.
 
-Alacritty can be installed via [Snap][install-alacritty].
+Alacritty can be installed via [Snap][install-alacritty]. Run:
 
 ```bash
 sudo snap install alacritty --classic
@@ -46,7 +46,7 @@ Add the following to the end of `~/.zshrc`.
 eval "$(starship init zsh)"
 ```
 
-[fish](https://fishshell.com) is a friendly interactive shell.
+[fish](https://fishshell.com) is a friendly interactive shell. Install it by running:
 
 ```bash
 sudo add-apt-repository ppa:fish-shell/release-4
