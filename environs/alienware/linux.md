@@ -8,7 +8,9 @@ Ubuntu’s default terminal is [GNOME Terminal][gnome-terminal], but [Alacritty]
 
 Alacritty can be installed via [Snap](https://snapcraft.io/alacritty).
 
-Install [Oh My Zsh](https://ohmyz.sh).
+### Installing Shells
+
+#### Oh My Zsh
 
 ```bash
 sudo apt install zsh
@@ -19,19 +21,19 @@ curl -fsSL https://install.ohmyz.sh | sh
 chsh -s $(which zsh)
 ```
 
-Install [Starship](https://starship.rs).
+#### Starship
 
 ```bash
 curl -sS https://starship.rs/install.sh | sh
 ```
 
-Add the following to the end of `~/.zshrc`
+Add the following to the end of `~/.zshrc`.
 
 ```bash
 eval "$(starship init zsh)"
 ```
 
-Install [fish](https://fishshell.com).
+#### fish
 
 ```bash
 sudo add-apt-repository ppa:fish-shell/release-4
