@@ -6,22 +6,35 @@ Set up a minimal environment on Ubuntu. It also works on Debian, elementary OS, 
 
 Ubuntu’s default terminal is [GNOME Terminal][gnome-terminal], but [Alacritty](https://alacritty.org) works too.
 
-Alacritty can be installed via [Snap](https://snapcraft.io/alacritty).
+Alacritty can be installed via [Snap](install-alacritty).
+
+```bash
+sudo snap install alacritty --classic
+```
 
 ### Installing Shells
 
-#### Oh My Zsh
+Zsh (enhanced with [Oh My Zsh](https://ohmyz.sh)) is an excellent alternative to Bash.
+
+Install Zsh using apt:
 
 ```bash
 sudo apt install zsh
-curl -fsSL https://install.ohmyz.sh | sh
 ```
 
 ```bash
 chsh -s $(which zsh)
 ```
 
-#### Starship
+Install Oh My Zsh:
+
+```bash
+curl -fsSL https://install.ohmyz.sh | sh
+```
+
+[Starship](https://starship.rs) is ideal for minimalists and seamlessly integrates with Zsh.
+
+Install Starship in one line of code:
 
 ```bash
 curl -sS https://starship.rs/install.sh | sh
@@ -33,7 +46,7 @@ Add the following to the end of `~/.zshrc`.
 eval "$(starship init zsh)"
 ```
 
-#### fish
+[fish](https://fishshell.com) is a friendly interactive shell.
 
 ```bash
 sudo add-apt-repository ppa:fish-shell/release-4
@@ -69,4 +82,6 @@ sudo snap install code --classic
 | Go       | `sudo snap install go --classic`   |
 
 [gnome-terminal]: https://github.com/GNOME/gnome-terminal
-[snapcraft]: https://snapcraft.io
+[install-alacritty]: https://snapcraft.io/alacritty
+
+
