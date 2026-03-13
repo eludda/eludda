@@ -76,19 +76,19 @@ sudo apt install ./<download>.deb
 
 [VS Code](https://code.visualstudio.com) can be installed via [Snap](https://snapcraft.io/code).
 
-## Snap Store
+## Snap Store Apps
 
 ### My Favorite Apps
 
 - [Audacity](https://snapcraft.io/audacity)
-- [eog](https://snapcraft.io/eog)
+- [Eye of GNOME](https://snapcraft.io/eog)
 - [GIMP](https://snapcraft.io/gimp)
 - [Inkscape](https://snapcraft.io/inkscape)
 - [Kdenlive](https://snapcraft.io/kdenlive)
 - [LocalSend](https://snapcraft.io/localsend)
 - [Shotcut](https://snapcraft.io/shotcut)
 
-### Programming Language
+### Programming Languages
 
 - [Node.js](https://snapcraft.io/node)
 - [Ruby](https://snapcraft.io/ruby)
