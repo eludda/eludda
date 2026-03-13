@@ -76,6 +76,28 @@ sudo apt install ./<download>.deb
 
 [VS Code](https://code.visualstudio.com) can be installed via [Snap](https://snapcraft.io/code).
 
+## Utilities
+
+### Gparted
+
+Install [GParted](https://gparted.org) using apt:
+
+```bash
+sudo apt install gparted
+```
+
+### FFmpeg
+
+Install [FFmpeg](https://ffmpeg.org) using apt:
+
+```bash
+sudo apt install ffmpeg
+```
+
+### HTTPie
+
+See its [installation](https://httpie.io/docs/cli/installation).
+
 ## Programming Languages
 
 | Language | Install via Snap                   |
