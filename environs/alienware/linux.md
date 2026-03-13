@@ -6,9 +6,9 @@ Set up a minimal environment on Ubuntu. It also works on Debian, elementary OS, 
 
 Ubuntu’s default terminal is [GNOME Terminal][gnome-terminal], but [Alacritty](https://alacritty.org) works too.
 
-> Alacritty can be installed via [Snap](https://snapcraft.io/alacritty).
+Alacritty can be installed via [Snap](https://snapcraft.io/alacritty).
 
-### Oh My Zsh
+Install [Oh My Zsh](https://ohmyz.sh).
 
 ```bash
 sudo apt install zsh
@@ -19,7 +19,7 @@ curl -fsSL https://install.ohmyz.sh | sh
 chsh -s $(which zsh)
 ```
 
-### Starship
+Install [Starship](https://starship.rs).
 
 ```bash
 curl -sS https://starship.rs/install.sh | sh
@@ -31,7 +31,7 @@ Add the following to the end of ~/.zshrc:
 eval "$(starship init zsh)"
 ```
 
-### fish
+Install [fish](https://fishshell.com).
 
 ```bash
 sudo add-apt-repository ppa:fish-shell/release-4
@@ -48,27 +48,19 @@ sudo apt install fish
 
 ### Chromium
 
-<details>
-  <summary>
+Install via [Snap](https://snapcraft.io/chromium).
 
-  Install via [Snap](https://snapcraft.io/chromium).</summary>
-
-  ```bash
-  sudo snap install chromium
-  ```
-</details>
+```bash
+sudo snap install chromium
+```
 
 ### VS Code
 
-<details>
-  <summary>
-  
-  Install via [Snap](https://snapcraft.io/code).</summary>
+Install via [Snap](https://snapcraft.io/code).
 
-  ```bash
-  sudo snap install code --classic
-  ```
-</details>
+```bash
+sudo snap install code --classic
+```
 
 ## Programming Languages
 
