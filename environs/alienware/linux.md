@@ -25,7 +25,7 @@ Install [Starship](https://starship.rs).
 curl -sS https://starship.rs/install.sh | sh
 ```
 
-Add the following to the end of ~/.zshrc:
+Add the following to the end of `~/.zshrc`
 
 ```bash
 eval "$(starship init zsh)"
@@ -44,19 +44,15 @@ sudo apt install fish
 
 ## Browser & Editor
 
-### Google Chrome
+Install [Google Chrome](https://www.google.com/chrome/).
 
-### Chromium
-
-Install via [Snap](https://snapcraft.io/chromium).
+Install [Chromium](https://www.chromium.org/Home/) via [Snap](https://snapcraft.io/chromium).
 
 ```bash
 sudo snap install chromium
 ```
 
-### VS Code
-
-Install via [Snap](https://snapcraft.io/code).
+Install [VS Code](https://code.visualstudio.com) via [Snap](https://snapcraft.io/code).
 
 ```bash
 sudo snap install code --classic
