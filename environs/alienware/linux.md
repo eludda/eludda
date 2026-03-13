@@ -6,7 +6,7 @@ Set up a minimal environment on Ubuntu. It also works on Debian, elementary OS, 
 
 Ubuntu’s default terminal is [GNOME Terminal][gnome-terminal], but [Alacritty](https://alacritty.org) works too.
 
-Alacritty can be installed via [Snap](install-alacritty).
+Alacritty can be installed via [Snap][install-alacritty].
 
 ```bash
 sudo snap install alacritty --classic
@@ -16,7 +16,7 @@ sudo snap install alacritty --classic
 
 Zsh (enhanced with [Oh My Zsh](https://ohmyz.sh)) is an excellent alternative to Bash.
 
-Install Zsh using apt:
+Install Zsh using `apt` and set it as the default shell.
 
 ```bash
 sudo apt install zsh
@@ -26,7 +26,7 @@ sudo apt install zsh
 chsh -s $(which zsh)
 ```
 
-Install Oh My Zsh:
+Install Oh My Zsh in one line of code:
 
 ```bash
 curl -fsSL https://install.ohmyz.sh | sh
@@ -59,15 +59,27 @@ sudo apt install fish
 
 ## Browser & Editor
 
-Install [Google Chrome](https://www.google.com/chrome/).
+### Google Chrome
 
-Install [Chromium](https://www.chromium.org/Home/) via [Snap](https://snapcraft.io/chromium).
+Download the `.deb` file from the [download](https://www.google.com/chrome/) page.
+
+Run the following command to install it.
+
+```bash
+sudo apt install ./<download>.deb
+```
+
+### Chromium
+
+[Chromium](https://www.chromium.org/Home/) can be installed via [Snap](https://snapcraft.io/chromium).
+
+### VS Code
 
 ```bash
 sudo snap install chromium
 ```
 
-Install [VS Code](https://code.visualstudio.com) via [Snap](https://snapcraft.io/code).
+Install [](https://code.visualstudio.com) via [Snap](https://snapcraft.io/code).
 
 ```bash
 sudo snap install code --classic
@@ -83,5 +95,3 @@ sudo snap install code --classic
 
 [gnome-terminal]: https://github.com/GNOME/gnome-terminal
 [install-alacritty]: https://snapcraft.io/alacritty
-
-
