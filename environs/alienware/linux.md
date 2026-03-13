@@ -76,6 +76,24 @@ sudo apt install ./<download>.deb
 
 [VS Code](https://code.visualstudio.com) can be installed via [Snap](https://snapcraft.io/code).
 
+## Snap Store
+
+### My Favorite Apps
+
+- [Audacity](https://snapcraft.io/audacity)
+- [eog](https://snapcraft.io/eog)
+- [GIMP](https://snapcraft.io/gimp)
+- [Inkscape](https://snapcraft.io/inkscape)
+- [Kdenlive](https://snapcraft.io/kdenlive)
+- [LocalSend](https://snapcraft.io/localsend)
+- [Shotcut](https://snapcraft.io/shotcut)
+
+### Programming Language
+
+- [Node.js](https://snapcraft.io/node)
+- [Ruby](https://snapcraft.io/ruby)
+- [Go](https://snapcraft.io/go)
+
 ## Utilities
 
 ### Gparted
@@ -97,14 +115,6 @@ sudo apt install ffmpeg
 ### HTTPie
 
 See its [installation](https://httpie.io/docs/cli/installation).
-
-## Programming Languages
-
-| Language | Install via Snap                   |
-| -------- | ---------------------------------- |
-| Node.js  | `sudo snap install node --classic` |
-| Ruby     | `sudo snap install ruby --classic` |
-| Go       | `sudo snap install go --classic`   |
 
 [gnome-terminal]: https://github.com/GNOME/gnome-terminal
 [install-alacritty]: https://snapcraft.io/alacritty
