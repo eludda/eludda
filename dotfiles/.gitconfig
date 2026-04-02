@@ -1,0 +1,6 @@
+[user]
+  name = eludda
+  email = 1185398+eludda@users.noreply.github.com
+
+[core]
+  excludesFile = /Users/eludda/.config/git/.gitignore
