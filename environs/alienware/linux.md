@@ -1,0 +1,134 @@
+# How to Set Up a Linux OS
+
+Set up a minimal environment on Ubuntu. It also works on Debian, elementary OS, and similar distros.
+
+## Terminal & Shells
+
+Ubuntu’s default terminal is [GNOME Terminal][gnome-terminal], but [Alacritty](https://alacritty.org) works too.
+
+Alacritty can be installed via [Snap](https://snapcraft.io/alacritty). Run the following command:
+
+```bash
+sudo snap install alacritty --classic
+```
+
+### Installing Shells
+
+Zsh enhanced with [Oh My Zsh](https://ohmyz.sh) is an excellent alternative to Bash.
+
+Install Zsh and set it as the default shell.
+
+```bash
+sudo apt install zsh
+```
+
+```bash
+chsh -s /bin/zsh
+```
+
+Install Oh My Zsh in one line of code:
+
+```bash
+curl -fsSL https://install.ohmyz.sh | sh
+```
+
+[Starship](https://starship.rs) is ideal for minimalists and seamlessly integrates with Zsh.
+
+Install Starship in one line of code:
+
+```bash
+curl -sS https://starship.rs/install.sh | sh
+```
+
+Add the following to the end of `~/.zshrc`.
+
+```bash
+eval "$(starship init zsh)"
+```
+
+[fish](https://fishshell.com) is a friendly interactive shell. Install it by running:
+
+```bash
+sudo add-apt-repository ppa:fish-shell/release-4
+sudo apt update
+```
+
+```bash
+sudo apt install fish
+```
+
+## Browser & Editor
+
+### Google Chrome
+
+1. Download the `.deb` file from the [download](https://www.google.com/chrome/) page.
+2. Run the following command to install it.
+
+```bash
+sudo apt install ./<download>.deb
+```
+
+### Chromium
+
+[Chromium](https://www.chromium.org/Home/) can be installed via [Snap](https://snapcraft.io/chromium).
+
+### VS Code
+
+[VS Code](https://code.visualstudio.com) can be installed via [Snap](https://snapcraft.io/code).
+
+### Zed
+
+[Zed](https://zed.dev) is an AI code editor.
+
+Install Zed in one line of code:
+
+```bash
+curl -f https://zed.dev/install.sh | sh
+```
+
+## Snap Store Apps
+
+### My Favorite Apps
+
+- [Audacity](https://snapcraft.io/audacity)
+- [Eye of GNOME](https://snapcraft.io/eog)
+- [GIMP](https://snapcraft.io/gimp)
+- [Inkscape](https://snapcraft.io/inkscape)
+- [Kdenlive](https://snapcraft.io/kdenlive)
+- [LocalSend](https://snapcraft.io/localsend)
+- [Shotcut](https://snapcraft.io/shotcut)
+
+### Programming Languages
+
+- [Node.js](https://snapcraft.io/node)
+- [Ruby](https://snapcraft.io/ruby)
+- [Go](https://snapcraft.io/go)
+
+## Utilities
+
+### GParted
+
+Install [GParted](https://gparted.org) using apt:
+
+```bash
+sudo apt install gparted
+```
+
+### FFmpeg
+
+Install [FFmpeg](https://ffmpeg.org) using apt:
+
+```bash
+sudo apt install ffmpeg
+```
+
+### HTTPie
+
+See its [installation](https://httpie.io/docs/cli/installation).
+
+### mpv
+
+See its [installation](https://mpv.io/installation).
+
+[gnome-terminal]: https://github.com/GNOME/gnome-terminal
+[JetBrainsMono]: https://github.com/JetBrains/JetBrainsMono
