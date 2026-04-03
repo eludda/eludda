@@ -1,0 +1,20 @@
+{
+  "editor.fontSize": 18,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": false,
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "editor.padding.top": 6,
+  "editor.padding.bottom": 6,
+  "editor.renderWhitespace": "boundary",
+  "workbench.colorTheme": "New Moon",
+  "workbench.startupEditor": "none",
+  "explorer.confirmDelete": false,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "window.zoomLevel": 1,
+  "dart.flutterSdkPath": "$HOME/.local/flutter",
+  "workbench.editor.empty.hint": "hidden",
+  "update.mode": "manual"
+}
