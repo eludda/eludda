@@ -3,17 +3,17 @@
 ## Must-Have Apps
 
 | App | Download |
-| --- | --- |
-| LocalSend | [Download][localsend-org] |
-| Super Shy | [Download][supershy-android] |
-| Google Play Store | [Download][google-play-store] |
+| :--- | --- |
+| LocalSend | [GitHub][localsend-org] |
+| Super Shy[^1] | [GitHub][supershy-android] |
+| Google Play Store | [APKMirror][google-play-store] |
 
 ## My Preferred Apps
 
 ### Media Tools
 
 | App | Download |
-| --- | --- |
+| :--- | --- |
 | mpv | [Google Play][mpv] |
 | VLC | [Google Play][vlc] |
 | Snapseed | [Google Play][snapseed] |
@@ -23,25 +23,25 @@
 ### Security
 
 | App | Download |
-| --- | --- |
+| :--- | --- |
 | Aegis Authenticator | [Google Play][aegis] |
 | Microsoft Authenticator | [Google Play][authenticator] |
 
 ### Social
 
 | App | Download |
-| --- | --- |
+| :--- | --- |
 | GitHub | [Google Play][github] |
 | Bluesky | [Google Play][bluesky] |
 
 ### Other
 
 | App | Download |
-| --- | --- |
-| ntfy | Google Play[ntfy] |
-| LocalSend | Google Play[localsend] |
+| :--- | --- |
+| ntfy | [Google Play][ntfy] |
+| LocalSend | [Google Play][localsend] |
 
-[localsend-org]: https://localsend.org
+[localsend-org]: https://github.com/localsend/localsend/releases
 [supershy-android]: https://github.com/supershy/supershy-android/releases
 [google-play-store]: https://www.apkmirror.com/apk/google-inc/google-play-store/
 
@@ -59,3 +59,5 @@
 
 [ntfy]: https://play.google.com/store/apps/details?id=io.heckel.ntfy
 [localsend]: https://play.google.com/store/apps/details?id=org.localsend.localsend_app
+
+[^1]: By another name.
